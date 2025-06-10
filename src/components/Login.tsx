@@ -17,7 +17,7 @@ const Login: React.FC = () => {
     }
 
     // Mock authentication
-    if (email === 'test@example.com' && password === 'password123' && company === 'OpenAI') {
+    if (email === 'test@example.com' && password === 'password123' && company === 'Helpee') {
       localStorage.setItem('isLoggedIn', 'true');
       navigate('/users');
     } else {
